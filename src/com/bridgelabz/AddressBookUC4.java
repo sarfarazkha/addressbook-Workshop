@@ -9,7 +9,7 @@ import java.util.Set;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 
-class AddressBook
+class AddressBookUC4
 {
     // class variable
     static final Scanner scanner = new Scanner(System.in);
@@ -217,7 +217,7 @@ class AddressBook
 
     public static void main(String[] args) throws Exception
     {
-        AddressBook addressBook = new AddressBook();
+        AddressBookUC4 addressBook = new AddressBookUC4();
         while (true)
         {
             System.out.println("-----------------------------");
